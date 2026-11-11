@@ -50,5 +50,8 @@ minimumReleaseAgeExclude:
   - "@opencode/*"
   # opencode's own UI library (same org and maintainers), bumped with each opencode release.
   - "@opentui/*"
+  - '@ai-sdk/gateway@4.0.142'
+  - '@ai-sdk/provider-utils@5.0.79'
+  - ai@7.0.169
 overrides:
   "@earendil-works/pi-agent-core>@earendil-works/pi-ai": "~1.5.0"
